@@ -25,7 +25,7 @@ def checker(guess, numA, numB):
         else:
             inGame = False
             return f"You loose, final score {score}"
-            #comment
+
 
 while inGame == True:
     numA = random.randint(0,49)
